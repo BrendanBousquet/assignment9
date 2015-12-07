@@ -1,0 +1,75 @@
+/*
+File: /~bbousque/public_html/assignment9/css/assignment9.css
+        91.461 Assignment 9 Implementing a Bit of Scrabble with Drag-and-Drop
+        Brendan Bousquet, UMass Lowell Computer Science Undergraduate
+        brendanbousquet@me.com
+        Created 12/1/2015
+        Copyright (c) 2015 by Brendan P. Bousquet. All rights reserved.
+*/
+h1{
+  text-align: center;
+}
+.center_div {
+  margin: auto;
+  text-align: center;
+}
+
+board {
+  height: 125px;
+  width: auto;    
+}
+rack {
+  height: 125px;
+  width: 1200px;    
+}
+button {
+  color: black;
+  font-family: "Advent Pro";
+  font-size: 150%;
+  font-weight: 900;
+  text-align: center;
+  height: 75px;
+  width: 200px;  
+}
+
+.pieces {
+  height: 100px;
+  width: 100px;    
+}
+.resize_board {
+  height: 125px;
+  width: auto;
+}
+.resize_rack {
+  height: 125px;
+  width: 1200px;
+}
+.logo {
+  margin: auto;
+  text-align: center;    
+}
+.message_div {
+  color: red;
+  font-family: "Advent Pro";
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;    
+}
+.scoreboard {
+  color: black;
+  font-family: "Advent Pro";
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;
+}
+.div_style {
+  color: red;
+  font-family: "Advent Pro";
+  font-size: 200%;
+  font-weight: 900;
+  text-align: center;
+}
+.droppable {
+  height: 125px;
+  width: 118px;
+}
